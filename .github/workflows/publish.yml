@@ -56,7 +56,7 @@ jobs:
       - name: Ensure Open VSX namespace exists (no-op if already created)
         if: ${{ github.event_name == 'push' || inputs.target == 'both' || inputs.target == 'openvsx' }}
         continue-on-error: true
-        run: npx --yes ovsx create-namespace AxelOllivier -p "$OVSX_PAT"
+        run: npx --yes ovsx create-namespace AxelOllivier -p "$OVSX_PAT" || true
         env:
           OVSX_PAT: ${{ secrets.OVSX_PAT }}
 

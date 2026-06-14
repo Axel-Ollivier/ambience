@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="icon.png" width="96" alt="Ambience"/>
+<img src="images/logo.png" width="440" alt="Ambience"/>
 
-# Ambience
-
-**Ambience** — a curated set of VS Code color themes, from cinematic
+A curated set of VS Code color themes, from cinematic
 dark & light palettes to a warm amber terminal aesthetic.
 Each theme is a complete design system: editor, syntax, semantic tokens,
 UI chrome, and integrated terminal.

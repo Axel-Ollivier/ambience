@@ -1,4 +1,4 @@
-CITS Themes — Copyright © 2024-2026 Axel Ollivier
+Ambience — Copyright © 2024-2026 Axel Ollivier
 Licensed under the GNU General Public License v3.0 — see LICENSE.
 
 -------------------------------------------------------------------------------
@@ -14,10 +14,9 @@ the individual colors or palette names in isolation.
 Two categories of themes are included:
 
 1. THEMES INSPIRED BY EXISTING CULTURAL WORKS
-   (Ghost in the Shell, Blade Runner, Princess Mononoke, Spirited Away,
-    Dune, The Empire Strikes Back, Cowboy Bebop, Annihilation, Arrival,
-    Her, Color Out of Space, Grand Budapest Hotel, Hannah Montana,
-    The Toxic Avenger, and other labels referencing films/anime/novels)
+   (Ghost in the Shell, Blade Runner, Princess Mononoke, Dune,
+    The Empire Strikes Back, Cowboy Bebop, Annihilation, Arrival, Her,
+    and other labels referencing films/anime/novels)
 
    These themes are original creative interpretations. The referenced
    titles and characters are trademarks of their respective owners.
@@ -26,11 +25,12 @@ Two categories of themes are included:
    rights holders.
 
 2. ORIGINAL THEMES (not derived from any third-party work)
-   (OLED, Paper, Ledger, Ledger — Day)
+   (OLED, Paper, Amber)
 
    These themes are fully original design systems authored from scratch.
    They carry no third-party aesthetic reference. The copyright applies
    to the full theme expression and any substantial derivative.
+   (Amber ports the author's own "Amber" desktop OS palette.)
 
 -------------------------------------------------------------------------------
 WHAT THE LICENSE DOES AND DOES NOT COVER
@@ -49,11 +49,6 @@ NOT COVERED (outside copyright scope):
 - Independent themes that happen to use overlapping colors but were
   authored from scratch without reference to the files in this repo.
 
-For brand identity protection (e.g. the PlanMyMoney visual identity,
-from which the Ledger themes' palette is adapted), trademark
-registration is the appropriate instrument and is handled separately
-from this license.
-
 -------------------------------------------------------------------------------
 OBLIGATIONS OF REDISTRIBUTORS
 -------------------------------------------------------------------------------
@@ -64,4 +59,4 @@ Per GPL v3 (§4, §5), any copy or modified version must:
 - Be distributed under GPL v3 (no sublicensing, no proprietary rebrand).
 
 Contact: axel.ollivier@protonmail.ch
-Repository: https://github.com/aollivier/code-in-the-shell
+Repository: https://github.com/Axel-Ollivier/ambience

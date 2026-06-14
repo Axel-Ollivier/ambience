@@ -1,3 +1,15 @@
+# keep the .vsix lean — ship only themes + docs the marketplace needs
 .git/**
 .gitignore
+.github/**
+.vscode/**
+.claude/**
+docs/**
+samples/**
+scripts/**
+images/**
+**/*.html
+**/*.svg
+**/.DS_Store
+.vscode-test/**
 *.vsix

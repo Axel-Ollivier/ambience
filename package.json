@@ -1,9 +1,15 @@
 {
-  "name": "cits-themes",
-  "displayName": "CITS Themes",
-  "description": "A curated collection of VS Code color themes inspired by cinema, anime, and cult films — Ghost in the Shell, Princess Mononoke, Blade Runner, Spirited Away, Studio Ghibli, Star Wars.",
-  "version": "1.3.0",
+  "name": "ambience-themes",
+  "displayName": "Ambience",
+  "description": "Ambience — a curated set of atmospheric VS Code color themes, from cinema and anime to a warm amber terminal aesthetic. Ghost in the Shell, Blade Runner, Princess Mononoke, Dune, Cowboy Bebop, Her, and more.",
+  "version": "1.4.0",
   "publisher": "AxelOllivier",
+  "license": "GPL-3.0-only",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#16110D",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -12,32 +18,32 @@
   ],
   "keywords": [
     "theme",
+    "ambience",
+    "atmospheric",
     "color theme",
     "colour theme",
     "dark",
     "light",
+    "dim",
+    "amber",
+    "warm",
+    "retro",
+    "terminal",
+    "phosphor",
     "anime",
     "cinema",
     "film",
     "cult",
-    "ghibli",
     "studio ghibli",
-    "mononoke",
+    "ghibli",
     "princess mononoke",
+    "mononoke",
     "ghost in the shell",
     "cyberpunk",
     "neon",
-    "spirited away",
-    "chihiro",
     "blade runner",
     "star wars",
     "empire",
-    "hannah montana",
-    "lovecraft",
-    "color out of space",
-    "oled",
-    "dark theme",
-    "retro",
     "dune",
     "arrakis",
     "cowboy bebop",
@@ -46,103 +52,79 @@
     "arrival",
     "her",
     "villeneuve",
-    "jazz"
+    "oled",
+    "accessibility"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "CITS: Ghost in the Shell",
+        "label": "Ambience: Ghost in the Shell",
         "uiTheme": "vs-dark",
         "path": "./themes/code-in-the-shell-color-theme.json"
       },
       {
-        "label": "CITS: Ghost in the Shell — Day",
+        "label": "Ambience: Ghost in the Shell — Day",
         "uiTheme": "vs",
         "path": "./themes/code-in-the-shell-light-color-theme.json"
       },
       {
-        "label": "CITS: Hannah Montana",
-        "uiTheme": "vs",
-        "path": "./themes/hannah-montana-color-theme.json"
-      },
-      {
-        "label": "CITS: Princess Mononoke",
+        "label": "Ambience: Princess Mononoke",
         "uiTheme": "vs-dark",
         "path": "./themes/ghibli-night-color-theme.json"
       },
       {
-        "label": "CITS: Blade Runner",
+        "label": "Ambience: Blade Runner",
         "uiTheme": "vs-dark",
         "path": "./themes/blade-runner-color-theme.json"
       },
       {
-        "label": "CITS: The Colour Out of Space",
-        "uiTheme": "vs-dark",
-        "path": "./themes/color-out-of-space-color-theme.json"
-      },
-      {
-        "label": "CITS: OLED",
+        "label": "Ambience: OLED",
         "uiTheme": "vs-dark",
         "path": "./themes/oled-color-theme.json"
       },
       {
-        "label": "CITS: Spirited Away",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ghibli-chihiro-color-theme.json"
-      },
-      {
-        "label": "CITS: The Toxic Avenger",
-        "uiTheme": "vs-dark",
-        "path": "./themes/toxic-avenger-color-theme.json"
-      },
-      {
-        "label": "CITS: The Empire Strikes Back",
+        "label": "Ambience: The Empire Strikes Back",
         "uiTheme": "vs-dark",
         "path": "./themes/empire-color-theme.json"
       },
       {
-        "label": "CITS: Dune",
+        "label": "Ambience: Dune",
         "uiTheme": "vs-dark",
         "path": "./themes/dune-color-theme.json"
       },
       {
-        "label": "CITS: Cowboy Bebop",
+        "label": "Ambience: Cowboy Bebop",
         "uiTheme": "vs-dark",
         "path": "./themes/cowboy-bebop-color-theme.json"
       },
       {
-        "label": "CITS: Annihilation",
+        "label": "Ambience: Annihilation",
         "uiTheme": "vs-dark",
         "path": "./themes/annihilation-color-theme.json"
       },
       {
-        "label": "CITS: Arrival",
+        "label": "Ambience: Arrival",
         "uiTheme": "vs-dark",
         "path": "./themes/arrival-color-theme.json"
       },
       {
-        "label": "CITS: Her",
+        "label": "Ambience: Her",
         "uiTheme": "vs",
         "path": "./themes/her-color-theme.json"
       },
       {
-        "label": "CITS: Paper",
+        "label": "Ambience: Paper",
         "uiTheme": "vs",
         "path": "./themes/paper-color-theme.json"
       },
       {
-        "label": "CITS: Ledger",
+        "label": "Ambience: Amber",
         "uiTheme": "vs-dark",
-        "path": "./themes/ledger-color-theme.json"
-      },
-      {
-        "label": "CITS: Ledger — Day",
-        "uiTheme": "vs",
-        "path": "./themes/ledger-day-color-theme.json"
+        "path": "./themes/amber-color-theme.json"
       }
     ],
     "configurationDefaults": {
-      "[CITS: Ghost in the Shell]": {
+      "[Ambience: Ghost in the Shell]": {
         "editor.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
         "editor.fontSize": 14,
         "editor.fontLigatures": false,
@@ -164,7 +146,7 @@
         "workbench.list.smoothScrolling": true,
         "workbench.tree.renderIndentGuides": "always"
       },
-      "[CITS: Ghost in the Shell — Day]": {
+      "[Ambience: Ghost in the Shell — Day]": {
         "editor.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
         "editor.fontSize": 14,
         "editor.fontLigatures": false,
@@ -186,7 +168,7 @@
         "workbench.list.smoothScrolling": true,
         "workbench.tree.renderIndentGuides": "always"
       },
-      "[CITS: The Empire Strikes Back]": {
+      "[Ambience: The Empire Strikes Back]": {
         "editor.fontFamily": "'IBM Plex Mono', 'Courier New', monospace",
         "editor.fontSize": 14,
         "editor.fontLigatures": false,
@@ -208,7 +190,7 @@
         "workbench.list.smoothScrolling": true,
         "workbench.tree.renderIndentGuides": "always"
       },
-      "[CITS: Paper]": {
+      "[Ambience: Paper]": {
         "editor.fontFamily": "'Liberation Mono', 'Courier New', monospace",
         "editor.fontSize": 14,
         "editor.fontLigatures": false,
@@ -232,46 +214,24 @@
         "workbench.list.smoothScrolling": true,
         "workbench.tree.renderIndentGuides": "none"
       },
-      "[CITS: Ledger]": {
-        "editor.fontFamily": "'JetBrains Mono', 'IBM Plex Mono', 'Courier New', monospace",
+      "[Ambience: Amber]": {
+        "editor.fontFamily": "'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Courier New', monospace",
         "editor.fontSize": 14,
         "editor.fontLigatures": true,
         "editor.lineHeight": 24,
-        "editor.letterSpacing": 0.2,
-        "editor.cursorStyle": "line",
+        "editor.letterSpacing": 0.5,
+        "editor.cursorStyle": "block",
         "editor.cursorWidth": 2,
-        "editor.cursorBlinking": "smooth",
-        "editor.renderLineHighlight": "gutter",
+        "editor.cursorBlinking": "phase",
+        "editor.renderLineHighlight": "all",
         "editor.smoothScrolling": true,
         "editor.minimap.renderCharacters": false,
         "editor.guides.bracketPairs": "active",
         "editor.bracketPairColorization.enabled": true,
-        "terminal.integrated.fontFamily": "'JetBrains Mono', 'IBM Plex Mono', 'Courier New', monospace",
+        "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', 'JetBrains Mono', 'Courier New', monospace",
         "terminal.integrated.fontSize": 14,
         "terminal.integrated.lineHeight": 1.5,
-        "terminal.integrated.cursorStyle": "line",
-        "terminal.integrated.cursorBlinking": true,
-        "workbench.list.smoothScrolling": true,
-        "workbench.tree.renderIndentGuides": "always"
-      },
-      "[CITS: Ledger — Day]": {
-        "editor.fontFamily": "'JetBrains Mono', 'IBM Plex Mono', 'Courier New', monospace",
-        "editor.fontSize": 14,
-        "editor.fontLigatures": true,
-        "editor.lineHeight": 24,
-        "editor.letterSpacing": 0.2,
-        "editor.cursorStyle": "line",
-        "editor.cursorWidth": 2,
-        "editor.cursorBlinking": "smooth",
-        "editor.renderLineHighlight": "gutter",
-        "editor.smoothScrolling": true,
-        "editor.minimap.renderCharacters": false,
-        "editor.guides.bracketPairs": "active",
-        "editor.bracketPairColorization.enabled": true,
-        "terminal.integrated.fontFamily": "'JetBrains Mono', 'IBM Plex Mono', 'Courier New', monospace",
-        "terminal.integrated.fontSize": 14,
-        "terminal.integrated.lineHeight": 1.5,
-        "terminal.integrated.cursorStyle": "line",
+        "terminal.integrated.cursorStyle": "block",
         "terminal.integrated.cursorBlinking": true,
         "workbench.list.smoothScrolling": true,
         "workbench.tree.renderIndentGuides": "always"
@@ -280,7 +240,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aollivier/code-in-the-shell"
+    "url": "https://github.com/Axel-Ollivier/ambience"
   },
-  "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/Axel-Ollivier/ambience/issues"
+  },
+  "homepage": "https://github.com/Axel-Ollivier/ambience#readme"
 }
